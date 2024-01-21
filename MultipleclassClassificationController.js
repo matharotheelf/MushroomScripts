@@ -1,9 +1,9 @@
 // -----JS CODE-----
-// SingleclassClassificationController.js
+// MultipleclassClassificationController.js
+// Based on sigle classification controller template of LensStudio
 // Version: 0.0.1
 // Event: Lens Initialized
-// Description: Script that makes a decision whether certain class can de considered found or lost based on the probability output of ml component
-// Allows to call corresponding callbacks
+// Classifies whether one of multiple categories has been detected or if none 
 
 // @input Component.MLComponent mlComponent 
 // @input string outputName {"hint": "Output placeholder name of your Ml model asset"}
